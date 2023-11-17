@@ -4,8 +4,8 @@
 }
 
 body {
-    background: #330c2f;
-    background: linear-gradient(156deg, rgba(51, 12, 47, 1) 65%, rgba(0, 0, 0, 1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 100%);
     color: #C2C2C2;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -13,15 +13,14 @@ body {
 
 header {
     padding: 2em;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 66%, rgba(51, 12, 47, 1) 100%);
+    background-color: #000000;
     height: 38vh;
     align-items: center;
 }
 
 .header__priLinha {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -111,7 +110,7 @@ background: linear-gradient(156deg, rgba(51,12,47,1) 0%, rgba(0,0,0,1) 100%); */
     font-size: 30px;
     width: 100%;
     margin: 0 auto;
-    background-color: #7067CF;
+    background-color: #000000;
     color: white;
     padding: 2em 0;
 }
@@ -168,15 +167,15 @@ background: linear-gradient(156deg, rgba(51,12,47,1) 0%, rgba(0,0,0,1) 100%); */
     border-radius: 25px;
     text-decoration: none;
     margin: 1.5em auto;
-    background-color: #330c2f;
+    background-color: #000000;
     font-size: 25px;
     width: 200px;
 }
 
 footer {
     text-align: center;
-    background: rgb(51, 12, 47);
-    background: linear-gradient(0deg, rgba(51, 12, 47, 1) 58%, rgba(112, 103, 207, 1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,155,255,1) 100%);
     color: rgba(112, 103, 207, 0.54);
     padding: 4em 0;
 }
